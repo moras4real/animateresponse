@@ -1,0 +1,21 @@
+/* .animate__animated.animate__bounce {
+    animation-duration: 2s;
+    animation-delay: 4s;
+} */
+
+body {
+    background-color: aqua;
+}
+
+#myDiv {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 475px) {
+    body {
+        background-color: red;
+    }
+    #myDiv {
+    font-size: 2em;
+}
+}
